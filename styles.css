@@ -299,7 +299,7 @@ justify-content: center;
   }
 }
 @media (max-width: 400px) {
-.essaiImg img, photo{
+.essaiImg img, .photo{
   filter: grayscale(0);
   
 }
