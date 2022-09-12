@@ -4,7 +4,7 @@
   margin: 0;
 }
 p{
-  word-break: break-all;
+  word-break: break-word;
 }
 main {
   margin: 1%;
