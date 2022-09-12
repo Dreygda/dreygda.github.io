@@ -1,0 +1,56 @@
+[
+   {
+      "id":1,
+      "name":"Almost Mobilier",
+      "date":"Juin 2022",
+      "description":"Création d'un site vitrine de vente de mobilier",
+      "picture1":"./pictures/AlmostMobilier.png",
+      "git":"https://gitlab.com/audrey.am/almostmobilier-api",
+      "techno":"NodeJS|Angular|MySql"
+   },
+   {
+      "id":2,
+      "name":"Vole! Papillon..",
+      "date":"Mai 2022",
+      "description":"Refonte d'un site web wordpress, pendant mon stage chez Arpasys",
+      "picture1":"./pictures/volepapillon.png",
+      "git":"https://vole-papillon.fr/",
+      "techno":"Wordpress"
+   },
+   {
+      "id":3,
+      "name":"Simplon React Weather Map",
+      "date":"01 février 2022",
+      "description":"Carte météorologique des fabriques de Simplon en Occitanie, utilisation d'API (Leaflet et OpenWeather) avec React",
+      "picture1":"./pictures/SimplonWeatherMap.png",
+      "git":"https://gitlab.com/audrey.am/weather-simplon",
+      "techno":"HTML5|Node.js|Responsive design|Javascript|JSON|CSS3|Leaflet|ReactJS"
+   },
+   {
+      "id":4,
+      "name":"My Life My Diet",
+      "date":"Aout 2022",
+      "description":"Création d'un site pour calcul d'IMC, avec retour de données. Mise en place d'un darkmode",
+      "picture1":"./pictures/mlmdb.png",
+      "git":"https://gitlab.com/audrey.am/calltoaction",
+      "techno":"PHP|MySql"
+   },
+   {
+      "id":5,
+      "name":"Arpasys",
+      "date":"Juillet 2022",
+      "description":"Mise en place d'un système de liaison en PHP pour récuperer les données Wordpress afin de les reutiliser pour creer un dashboard client, pendant mon stage chez Arpasys",
+      "picture1":"./pictures/Arpasys.png",
+      "git":"",
+      "techno":"Wordpress|PHP|MySql"
+   },
+   {
+      "id":6,
+      "name":"DeadCowDiner",
+      "date":"25 février 2022",
+      "description":"Projet initial en groupe au début de l'année, reprit en solo dans la semaine du 21 au 25 février 2022 avec découverte de nouvelles technos",
+      "picture1":"./pictures/DeadCowDiner.png",
+      "git":"https://gitlab.com/audrey.am/ecf-wordpress",
+      "techno":"PHP|MySql"
+   }
+]

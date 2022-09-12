@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Audrey Monfort | Compétences</title>
+  </head>
+  <body>
+    <header>
+      <div class="enTete">
+        <h1>Audrey Monfort</h1>
+
+        <nav>
+          <ul>
+            <a href="/portfolio-static/index.html">
+              <li>Projets</li>
+            </a>
+            <a href="/portfolio-static/competence.html">
+              <li>Compétences</li>
+            </a>
+            
+          </ul>
+        </nav>
+      </div>
+      <hr class="solid" />
+    </header>
+    <main>
+      <div class="top-list-name" style="justify-content: end">
+        <h2>Liste des compétences</h2>
+      </div>
+      <div class="list_comp">
+        
+
+        <button class="accordion c1">C1 Maquetter une application</button>
+        <div class="panel" id="c1">
+          <p>Lorem ipsum...</p>
+        </div>
+        <hr class="solid" />
+        <button class="accordion">C2 Réaliser une interface utilisateur web statique et adaptable</button>
+        <div class="panel"id="c2">
+          <p>Lorem ipsum...</p>
+        </div>
+        <hr class="solid" />
+        <button class="accordion">C3 Développer une interface utilisateur web dynamique</button>
+        <div class="panel"id="c3">
+          <p>Lorem ipsum...</p>
+        </div>
+        <hr class="solid" />
+        <button class="accordion"> C4 Réaliser une interface utilisateur avec une solution de gestion de
+          contenu ou e- commerce</button>
+        <div class="panel"id="c4">
+          <p>Lorem ipsum...</p>
+        </div>
+        <hr class="solid" />
+        <button class="accordion">C5 Créer une base de données</button>
+        <div class="panel"id="c5">
+          <p>Lorem ipsum...</p>
+        </div>
+        <hr class="solid" />
+        <button class="accordion">C6 Développer les composants d’accès aux données</button>
+        <div class="panel"id="c6">
+          <p>Lorem ipsum...</p>
+        </div>
+        <hr class="solid" />
+        <button class="accordion">C7 Développer la partie back-end d’une application web ou web mobile</button>
+        <div class="panel"id="c7">
+          <p>Lorem ipsum...</p>
+        </div>
+        <hr class="solid" />
+        <button class="accordion">C8 Elaborer et mettre en œuvre des composants dans une application de
+          gestion de contenu ou e-commerce</button>
+        <div class="panel"id="c8">
+          <p>Lorem ipsum...</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <hr class="solid" />
+      <nav>
+        <ul>
+          <a href="/portfolio-static/competence.html">
+            <li>Compétences</li>
+          </a>
+          <a href="/portfolio-static/index.html">
+            <li>Projets</li>
+          </a>
+          
+        </ul>
+      </nav>
+      <div class="contact">
+        <div class="icon">
+          <a href=""><img src="./pictures/icons/github-brands.svg" /></a>
+          <a href=""><img src="./pictures/icons/gitlab-brands.svg" /></a>
+          <a href=""><img src="./pictures/icons/linkedin-in-brands.svg" /></a>
+        </div>
+        <div class="nom">au.monfort@gmail.com - Audrey Monfort - 2022</div>
+      </div>
+    </footer>
+    <script>
+
+
+
+
+
+
+
+
+
+
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
+      <script src="js.js"></script>
+
+  </body>
+</html>

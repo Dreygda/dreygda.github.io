@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat+Alternates:wght@200;400;700&display=swap");
+* {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 0;
+}
+main {
+  margin: 1%;
+}
+hr.solid {
+  border-top: 1px solid rgb(0, 0, 0);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header {
+  background-image: url("./pictures/testaches\ copie.svg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.essaiImg img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+
+  object-fit: cover;
+  filter: grayscale(1);
+  transition: filter 0.2s ease-in-out;
+}
+.essaiImg img:hover {
+  filter: grayscale(0);
+  transition: filter 0.2s ease-in-out;
+}
+.projetIndiv {
+  border: 1px solid black;
+  padding: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: box-shadow 200ms ease 0s, transform 200ms ease 0s;
+  width: 300px;
+}
+.projetIndiv:hover {
+  transform: translate(4px, -4px);
+  box-shadow: -20px 20px 0 black;
+}
+
+.projText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+.circle {
+  float: left;
+  shape-outside: circle();
+
+}
+.photo {
+  margin: 5%;
+  width: 300px;
+  border-radius: 300px;
+  margin: 2px;
+  filter: grayscale(1);
+  transition: filter 0.2s ease-in-out;
+}
+.photo:hover {
+  filter: grayscale(0);
+  transition: filter 0.2s ease-in-out;
+}
+.enTete {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+  height: 100vh;
+}
+
+header ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: purple;
+  justify-content: space-between;
+}
+li:hover {
+  color: purple;
+}
+a:hover {
+  color: black;
+}
+nav a,
+a {
+  border-bottom: #ffffff 2px solid;
+}
+nav a:hover {
+  color: black;
+  border-bottom: #24303a 2px solid;
+}
+.logo {
+  width: 100px;
+}
+.icon img {
+  width: 50px;
+}
+.encart {
+  height: 70vh;
+}
+.info{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoAM {
+  height: 20em;
+}
+.headernom h1 {
+  font-size: 5rem;
+}
+.coucou {
+  height: 300px;
+  width: 700px;
+  display: flex;
+
+  align-items: center;
+}
+
+section {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: 100vh;
+}
+section .text {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  user-select: none;
+  pointer-events: none;
+  animation: animate 7.5s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+section .text span {
+  top: -50px;
+  position: absolute;
+  text-transform: uppercase;
+  display: inline-block;
+  transform-origin: 0 50px;
+}
+.miseEnPage {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.coucou {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.titreh2 {
+  display: flex;
+  justify-content: center;
+}
+
+.titreh2 h2 {
+  font-size: 2em;
+}
+.barreViolette {
+  color: purple;
+  height: 6px;
+  margin: 8%;
+  border: 1px solid purple;
+  box-shadow: 5px 5px 0 black;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footerGauche {
+  display: flex;
+}
+.nom {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+.footerNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+@media (max-width: 1028px){
+  .projects{
+    
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .projetIndiv{
+    width: 77vw;
+    display: flex;
+  }
+  .encart{
+    height: 100%
+  }
+}
+@media (max-width: 850px){
+.enTete{
+  flex-direction: column;
+  margin:1%;
+  padding: 1%;
+}
+.coucou{
+  width: 100%;
+}
+header{
+  background-repeat: repeat;
+}
+}
+@media (max-width: 718px){
+  .enTete{
+    display: flex;
+align-items: center;
+justify-content: center;
+  }
+  .logoAM{
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  .headernom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .headernom h1 {
+    font-size: 3rem;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+  .coucou p{
+    margin-top: 0;
+    padding: 5%;
+  }
+  .projetIndiv{
+    display: flex;
+    flex-direction: column;
+  }
+  .essaiImg{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 514px) {
+  .logoAM{
+    width: 100%;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact{
+    display: flex;
+    justify-content: end;
+  }
+}
