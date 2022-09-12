@@ -17,7 +17,7 @@ fetch(myRequest)
           
         <div class="projetIndiv">
                 <a class="essaiImg" href="${projects.picture1}">
-                <img src="${projects.picture1}" alt="photo projet">
+                <img src="${projects.picture1}" alt="photo projet ${projects.picture1}">
             </a>
             <div class="projText">
                 <div class="idNom">
