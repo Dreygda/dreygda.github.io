@@ -3,6 +3,9 @@
   font-family: "Montserrat Alternates", sans-serif;
   margin: 0;
 }
+p{
+  word-break: break-all;
+}
 main {
   margin: 1%;
 }
